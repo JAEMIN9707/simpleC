@@ -17,7 +17,7 @@ app.get("/add",(req,res) =>{
 app.get("/minus",(req,res) =>{
     var p1 = req.param('p1');
     var p2 = req.param('p2');
-    var result = Number(p1)- Number(p2);
+    var result = Number(p1) - Number(p2);
 
     res.send("Result : " + result);
 });
@@ -25,7 +25,7 @@ app.get("/minus",(req,res) =>{
 app.get("/multi",(req,res) =>{
     var p1 = req.param('p1');
     var p2 = req.param('p2');
-    var result = Number(p1)* Number(p2);
+    var result = Number(p1) * Number(p2);
 
     res.send("Result : " + result);
 });
@@ -33,7 +33,7 @@ app.get("/multi",(req,res) =>{
 app.get("/division",(req,res) =>{
     var p1 = req.param('p1');
     var p2 = req.param('p2');
-    var result = Number(p1)/ Number(p2);
+    var result = Number(p1) / Number(p2);
 
     res.send("Result : " + result);
 });
